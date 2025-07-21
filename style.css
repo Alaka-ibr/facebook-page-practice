@@ -1,0 +1,82 @@
+body{
+    background-color: azure;
+}
+
+.form-container{
+    width: 40%;
+}
+
+.form-container form {
+    background-color: white;
+    margin: 10%;
+    height: 300px;
+    padding: 7%;
+    justify-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#input_field {
+    height: 50px;
+    width: 90%;
+    margin: 10px;
+    border-radius: 4px;
+}
+#login{
+    height: 50px;
+    width: 90%;
+    margin: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+
+}
+#button{
+    height: 40px;
+    width: 70%;
+    margin: 10%;
+    margin-top: -5%;
+    background-color: rgb(29, 211, 29);
+    justify-items: center;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+#forget {
+    color: blue;
+    text-decoration: none;
+}
+#forget:hover {
+    text-decoration: underline;
+}
+.content{
+    width: 50%;
+    margin: 4%;
+}
+
+.content h1 {
+    color: blue;
+    font-size: 50px;
+}
+
+.content p {
+    color: black;
+    font-size: 30px;
+}
+
+.hero{
+    width: 80%;
+    height: 50%;
+    margin: 5%;
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+}
+#foot{
+    text-align: justify;
+    color: black;
+}
